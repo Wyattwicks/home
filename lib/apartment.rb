@@ -7,6 +7,7 @@ class Apartment
     @monthly_rent = unit[:monthly_rent]
     @bathrooms = unit[:bathrooms]
     @bedrooms = unit[:bedrooms]
+    @renters = []
 
   end
 
